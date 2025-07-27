@@ -1,7 +1,8 @@
-Water Intake Tracker 💧
+# Water Intake Tracker 
+
 A simple Spring Boot application to help you track your daily water intake and stay hydrated!
 
-Table of Contents
+# Table of Contents
 Features
 
 Technologies Used
@@ -16,9 +17,8 @@ Running the Application
 
 Usage
 
-Contributing
+# Features
 
-Features
 User Registration & Authentication: Securely create an account and log in.
 
 Daily Water Tracking: Log your water intake throughout the day.
@@ -29,7 +29,7 @@ CRUD Operations: Add, update, and delete water intake records.
 
 Responsive UI: Basic web interface for easy interaction.
 
-Technologies Used
+# Technologies Used
 Spring Boot: Framework for building the application.
 
 Spring Security: For authentication and authorization.
@@ -46,17 +46,20 @@ HTML, CSS, JavaScript: For the frontend user interface.
 
 Apache Tomcat Embedded: Default web server.
 
-Getting Started
+# Getting Started
+
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-Prerequisites
+# Prerequisites
+
 Java 17 (or higher): Ensure you have the Java Development Kit (JDK) installed.
 
 Maven 3.6+: You can download it from the Apache Maven website.
 
 Git: For cloning the repository.
 
-Installation
+# Installation
+
 Clone the repository:
 
 Bash
@@ -69,7 +72,9 @@ Navigate to the project root directory and build the application using Maven:
 Bash
 
 mvn clean install
-Running the Application
+
+# Running the Application
+
 Run from Maven:
 
 Bash
@@ -85,7 +90,8 @@ Bash
 java -jar target/waterintake-0.0.1-SNAPSHOT.jar
 (Note: The version 0.0.1-SNAPSHOT might vary based on your pom.xml).
 
-Usage
+# Usage
+
 Access the Application: Open your web browser and go to http://localhost:8080.
 
 Register: Click on the "Sign Up" link to create a new user account.
