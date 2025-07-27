@@ -1,0 +1,25 @@
+body {
+    padding-top: 70px; /* Adjust for fixed-top navbar */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container.my-4 {
+    flex: 1; /* Allow main content to grow and push footer down */
+}
+
+.footer {
+    width: 100%;
+}
+
+/* Optional: Add some styling for cards and forms */
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.card-header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
